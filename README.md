@@ -52,7 +52,22 @@ Socket programming finds applications in various domains, including web developm
 3.	File Transfer Protocol: Protocols like FTP (File Transfer Protocol) utilize socket programming for transferring files between a client and a server.
 4.	Networked Games: Online multiplayer games rely on socket programming to facilitate communication between game clients and servers.
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
+   
+## COMMANDS:
+## Basic Networking Commands (Windows)
 
+| No. | Command | Meaning / Purpose |
+|---:|---|---|
+| 1 | `ipconfig` | Displays basic IP configuration of network adapters. |
+| 2 | `ping 127.0.0.1` | Tests the local TCP/IP network stack using the loopback address. |
+| 3 | `hostname` | Displays the name of the current computer. |
+| 4 | `getmac` | Displays MAC addresses of network adapters. |
+| 5 | `arp -a` | Displays the ARP table mapping IP addresses to MAC addresses. |
+| 6 | `netstat -an` | Displays active network connections and listening ports. |
+| 7 | `nslookup google.com` | Queries DNS to find the IP address of a domain name. |
+| 8 | `tracert google.com` | Traces the route taken by packets to reach a destination. |
+| 9 | `ipconfig /all` | Displays detailed IP configuration, including DNS and DHCP information. |
+| 10 | `route print` | Displays the computer's IP routing table. |
 
 ## Result:
 Thus the study of Socket Programming Completed Successfully
